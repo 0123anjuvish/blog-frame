@@ -1,0 +1,67 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float");
+  font-size: 40px;
+  text-shadow: 4px 4px 4px #aaa;
+    color:rgb(224, 170, 170);
+}
+.tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Tangerine', serif;
+font-size: 20px;
+text-shadow: 4px 4px 4px #aaa;
+  color:rgb(23, 20, 20);
+  
+}
+h5{
+  display: flex;
+  justify-content: center;
+  margin-left: -3em;
+  font-family: 'Tangerine', serif;
+  font-size: 22px;
+text-shadow: 4px 4px 4px #aaa;
+  color:rgb(23, 20, 20);
+  
+}
+.home-h4{
+  margin-left: 15em;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tangerine', serif;
+  font-size: 17px;
+  text-shadow: 4px 4px 4px #aaa;
+    color:rgb(23, 20, 20);
+    cursor: pointer;
+}
+p:hover:before,p:hover:after{
+    transform: translate(0,0);
+  opacity: 1;
+
+}
+p:hover{
+    color: #bc8f14;
+}
+.c1{
+  margin-left:1em!important;
+  padding:1em!important;
+}
+.card,.card-body{
+  width: 354px!important;
+  height:300px!important;
+}
+.fixed-bottom{
+  background-color:  #433f3f!important;
+ margin-top: 0.3em;
+ height:55px!important;
+}
+
+.home-h44{
+  margin-left:0em;
+}

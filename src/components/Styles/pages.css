@@ -1,0 +1,84 @@
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float");
+  font-size: 40px;
+  text-shadow: 4px 4px 4px #aaa;
+    color:rgb(67, 108, 118);
+}
+.abth4{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-style: italic;
+  font-family: cursive;
+  color:rgb(9, 76, 55) ;
+}
+.cc{
+  background-color: rgb(246, 231, 226);
+  width: 1385px;
+}
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  margin-left: 11em!important;
+}
+.imgg{
+  height:20px;
+  weight:40px;
+}
+.c1{
+    background-color: rgb(226, 224, 223);
+    width: 70%;
+    margin-left: 10em!important;
+    height: 690px;
+    margin-top: 3em;
+
+}
+.cc1{
+  /* background-color: rgb(242, 231, 227); */
+  width: 70%;
+  margin-left: 10em!important;
+  /* height: 470px; */
+  margin-top: 3em;
+
+}
+.c1img{
+height:448px!important;
+width:410px;
+}
+.line{
+  line-height: 1.7em;
+  font-size: 16px;
+}
+.card-img-top{
+  height: 161px!important;
+    width: 304px !important;
+    margin-left: 1em;
+}
+.c3{
+  margin-top:1em;
+  background-color: rgb(199, 79, 39)!important;
+}
+.card,.card-body{
+  width: 354px!important;
+  height:450px!important;
+
+  /* background-color: rgb(188, 182, 181)!important; */
+}
+.vid{
+  width: 448px!important;
+}
+
+.btndiv{
+  margin: 1em 0 0 27em;
+}
+.join-btn{
+ 
+  background-color: #c5c0c0;
+    width: 471px;
+    margin-top: 3em;
+    margin-left: -14em;
+}

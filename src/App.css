@@ -1,0 +1,60 @@
+
+body{
+  background-color:rgb(248, 250, 241) !important;
+  /* width :auto important; */
+   margin: 0;
+  padding: 0;
+}
+
+
+.login_form{
+  background-color: #edf7f3;
+  margin: 0 auto;
+  border:none;
+  box-shadow: #282c34;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1em;
+  width:50%;
+  height:300px;
+}
+.sbmt{
+  margin-top: 1em;
+  width: 30%;
+  border-radius: 3%;
+  border:none;
+  cursor: pointer;
+  background-color: rgb(228, 236, 228);
+  box-shadow: #282c34;
+  font-weight: italic;
+  color:grey;
+
+}
+.sbmt:hover{
+  
+  color:rgb(219, 113, 113);
+  border:1px red;
+}
+
+
+
+.inpt{
+  margin: 2em 3em 1em 2em;
+}
+.inpt1{
+  margin: 2em 1em 1em 2em;
+}
+.inpt2{
+  margin: 2em 2em 1em 2em;
+}
+.inpt3{
+  margin: 2em 1em 1em 2em;
+}
+.form_inpt{
+  margin:0.3em;
+ 
+}
+/* .nav{
+  background-color: aqua;
+} */

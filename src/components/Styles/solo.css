@@ -1,0 +1,259 @@
+/*Solo Recipe Page */
+.rec-col{
+    margin:0;
+}
+.rec-img{
+    margin-top:4em;
+    border-radius: 20px;
+}
+.video{
+   
+    margin:4em 0 0 4em;
+    width: 480px;
+    height: 400px;
+
+}
+.step-div{
+    margin-left: 7em;
+}
+.detail-head{
+    margin:1em 0 0 1em;
+}
+.detail-head1{
+    margin:1em 0 0 0;
+}
+h6{
+    color:darkgray;
+    font-weight: bolder;
+}
+.detail-head-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    margin: -1.2em 0 0 4em;
+   cursor: pointer;
+}
+
+.span-star {
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    transition: color 0.25s;
+  }
+  
+  .span-star:hover,
+  .span-star:focus {
+    color: gold;
+  }
+  .star-div{
+    
+
+    margin: -1.2em 0 0 4em;
+
+  }
+  /*Health*/
+  .hlt-cont-1{
+    background-color: rgb(81, 239, 81);
+    height:1366px;
+  }
+  .hlt-vid{
+    width: 353px !important;
+    height: 360px !important;
+  }
+  .hlt-col1{
+    background-color: greenyellow;
+    width: 845px;
+    height: 127  3px;
+    margin: 1em 0 0 2em;
+  }
+  .hlt-col2{
+    width: 300px;
+    height:600px;
+    margin: 1em 0 0 4em;
+  }
+ .h55{
+    font-size: 25px;
+    margin:1em;
+    font-weight: bold;
+    font-family: ui-rounded;
+ }
+ .cd-img-top{
+    height:200px;
+ }
+ .sbs{
+    font-size: large;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin:2em;
+
+ }
+ .lk{
+    margin-top: 1em;
+    margin-right: 4em;
+ }
+ .rt{
+    margin-top: 1em;
+    margin-right: 4em;
+ }
+ .hlt-rt{
+display: flex;
+
+margin:25px;
+ }
+ /* Etn */
+
+ .movie-section {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--text-clr);
+    display: grid;
+    place-items: center;
+  }
+  .movie-card {
+    min-width: 30rem;
+    width: 50vw;
+    /* padding: 1rem; */
+    background-color: white;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 0.6fr 1fr;
+    /* align-items: center; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 2rem;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  .movie-card img {
+    width: 265px;
+    height: 384px;
+    margin: 0;
+    border-radius: 0;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    /* border-radius: 0; */
+    /* max-height: 50rem; */
+   
+  }
+  
+  .movie-card .title {
+    font-size: 2.8rem;
+    color: var(--text-clr);
+    font-weight: bold;
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .card-content p{
+    font-size: 1.8rem;
+    
+  }
+  .card-text-etn {
+    font-size: 1.8rem;
+    color:grey;
+    font-style: italic;
+    font-weight: bold;
+  }
+  a:hover .hhh2 {
+    color: rgb(242, 248, 168);
+    transform: translateY(-1.5rem);
+    display: inline-block;
+  }
+  .etn-cont-1{
+    background-color: rgb(255, 88, 88);
+  }
+  .etn-col1{
+    background-color:rgb(241 136 136);
+    width: 845px;
+    height: 127  3px;
+    margin: 1em 0 0 2em;
+  }
+  .etn-col2{
+    width: 300px;
+    height:600px;
+    margin: 1em 0 0 4em;
+  }
+  .imgg-etn{
+    width: 818px;
+    height: 320px;
+    margin-top: 1em;
+  }
+  .etn-vid{
+    width: 353px !important;
+    height: 360px !important;
+  }
+
+  /* Education */
+
+  .edu-cont-1{
+    background-color: rgb(12, 22, 50);
+    height:1940px;
+  }
+  .edu-vid{
+    width: 353px !important;
+    height: 360px !important;
+  }
+  .edu-col1{
+    background-color: rgb(9,47,161);
+    width: 845px;
+    height: 1916px;
+    margin: 1em 0 0 2em;
+  }
+  .edu-col2{
+    width: 300px;
+    height:600px;
+    margin: 1em 0 0 4em;
+  }
+ .h55{
+    font-size: 25px;
+    margin:1em;
+    font-weight: bold;
+    font-family: ui-rounded;
+ }
+ .cd-img-top{
+    height:200px;
+ }
+ .edu-rt{
+    display: flex;
+    
+    margin:25px;
+     }
+     .h55-edu{
+        font-size: 25px;
+        margin:1em;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: ui-rounded;
+     }
+     .edu-p{
+        color: aliceblue;
+     }
+     .sbs-edu{
+        font-size: large;
+        font-style: normal;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+        margin:2em;
+        color:aliceblue;
+    
+     }
+     .card, .card-body-edu {
+        width: 354px!important;
+        height: 518px!important;
+        background-color: rgb(248, 237, 233)!important;
+    }
+   .btn btn-primary{
+    margin:4em 0 4em 3em !important;
+   }
+
+    
