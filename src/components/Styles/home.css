@@ -17,6 +17,13 @@ text-shadow: 4px 4px 4px #aaa;
   color:rgb(23, 20, 20);
   
 }
+.card{
+  background-color: #a9a6a6;
+}
+.card-img-top-1{
+  height: 182px;
+  margin: 5px;
+}
 h5{
   display: flex;
   justify-content: center;

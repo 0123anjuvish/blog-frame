@@ -1,4 +1,4 @@
-// import React, { useEffect, useState } from "react";
+
 // import list from "./dropdown/RecipeData/recdata";
 // import { Link } from "react-router-dom";
 // console.log(list);
@@ -64,45 +64,53 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
 
-const Search = ({ data }) => {
+const Search = () => {
+
+  function Products({ products }) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [redirectToRecipe, setRedirectToRecipe] = useState(false);
-  const [searchResults, setSearchResults] = useState([]);
 
-  const handleSearch = (event) => {
-    event.preventDefault();
-    // Search logic
-    const results = data.filter((item) =>
-      item.title.toLowerCase().includes(searchQuery.toLowerCase())
-    );
-    setSearchResults(results);
-    setRedirectToRecipe(true);
-  };
-
-  const handleInputChange = (event) => {
+  const handleSearchInputChange = (event) => {
     setSearchQuery(event.target.value);
   };
 
-  if (redirectToRecipe) {
-    return (
-      <Navigate
-      to={{
-        pathname: `/recipe/${searchResults[0].id}`,
-        state: { searchResults },
-      }}
-    />
-    );
-  }
+  const filteredProducts = products.filter((product) =>
+    product.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
     <div>
-      <form onSubmit={handleSearch}>
-        <input type="text" value={searchQuery} onChange={handleInputChange} />
-        <button type="submit">Search</button>
-      </form>
+      <input type="text" placeholder="Search products..." value={searchQuery} onChange={handleSearchInputChange} />
+      <ul>
+        {filteredProducts.map((product) => (
+          <li key={product.id}>{product.name}</li>
+        ))}
+      </ul>
     </div>
   );
+}
+
+function Categories({ categories }) {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearchInputChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+
+  const filteredCategories = categories.filter((category) =>
+    category.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  return (
+    <div>
+      <input type="text" placeholder="Search categories..." value={searchQuery} onChange={handleSearchInputChange} />
+      <ul>
+        {filteredCategories.map((category) => (
+          <li key={category.id}>{category.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 };
 
 export default Search;
-

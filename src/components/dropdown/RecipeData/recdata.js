@@ -46,8 +46,7 @@ const list = [
      
      quantity: 4,
       img:"./images/chhole.jpg"
-    //   img: "https://img.freepik.com/premium-photo/chole-bhature-spicy-chick-peas-curry-also-known-as-chole-channa-masala-is-traditional-north-indian-main-course-recipe-usually-served-with-fried-puri-bhature-selective-focus_726363-296.jpg?size=626&ext=jpg&ga=GA1.2.1974617117.1671349017&semt=robertav1",
-     
+   
     },
     {
       id: 6,
@@ -56,8 +55,7 @@ const list = [
       
      quantity: 4,
       img:"./images/paratha.jpg"
-    //   img: "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76173.jpg?size=626&ext=jpg&ga=GA1.2.1974617117.1671349017&semt=robertav1",
-     
+    
     },
     {
       id: 7,
@@ -65,9 +63,8 @@ const list = [
      detail: "As the cold starts to set in Methi also begins to be available in the market. There are 2 types of M...",
     
      quantity: 4,
-      img:"./images/methi.jpg"
-    //   img: "https://as2.ftcdn.net/v2/jpg/01/43/65/69/1000_F_143656903_67QsYSN96abOxoIjHg5x8WVw0mGzyPTv.jpg",
-     
+      img:"https://pipingpotcurry.com/wp-content/uploads/2019/08/Methi-Matar-Malai-12.webp"
+   
     },
     {
       id: 8,
@@ -76,8 +73,7 @@ const list = [
       
      quantity: 4,
       img:"./images/tdchk.jpg"
-    //   img: "https://img.freepik.com/free-photo/tandoori-chicken-is-indian-non-vegetarian-spicy-food_466689-91812.jpg?size=626&ext=jpg&ga=GA1.2.1974617117.1671349017&semt=robertav1",
-     
+   
     }],
     [
     {

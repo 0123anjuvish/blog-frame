@@ -27,7 +27,7 @@ function Health() {
                     <p> {item?.detail}</p>
 
                     <NavLink to={`/health/${item.id}`}>
-                      <span className="hlt-btn">Continue Reading.....</span>
+                      <span className="rcp-btn">Continue Reading.....</span>
                     </NavLink>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ function Health() {
                   <img src={item?.img} alt="" />
                   
 
-                  <div className="card-desc">
-                    <div>Quantity: for {item?.quantity} People.</div>
+                  <div className="card-desc-hlt">
+                    
                     <p> {item?.detail}</p>
 
                     <NavLink to={`/health/${item.id}`}>

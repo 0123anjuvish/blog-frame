@@ -1,6 +1,7 @@
 /*Recipe blog page */
 .rcp-cont{
 background-color: rgb(243, 195, 106);
+height:1400px;
 }
   .cds {
     /* width: 100%; */
@@ -100,7 +101,7 @@ background-color: rgb(243, 195, 106);
   }
   .rcp-btn:hover{
     font-size: larger;
-    color:cadetblue;
+    color:rgb(115, 147, 71);
   }
   /*Health Page     */
 
@@ -158,7 +159,7 @@ background-color: rgb(243, 195, 106);
     top: 0;
     opacity: 0;
     padding: 18px 8%;
-    background-color: white;
+   
      backdrop-filter: blur(8px);
     overflow-y: scroll;
     transition: 0.8s ease;
@@ -223,7 +224,7 @@ background-color: rgb(243, 195, 106);
     top: 0;
     opacity: 0;
     padding: 18px 8%;
-    /* color: white; */
+   
      backdrop-filter: blur(8px);
     overflow-y: scroll;
     transition: 0.8s ease;

@@ -1,11 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Styles/Header.css';
 import { NavLink } from "react-router-dom";
-// import { NavLink } from "react-router-dom";
-// import './App.css';
+
 
 function LowerNav() {
+ 
     return (
     <>
     
@@ -15,30 +16,32 @@ function LowerNav() {
       
   <div className="container-fluid bd1">
    
-    {/* <a className="ac"><p>Home</p></a> */}
+  
     <NavLink to = "/"><p>Home</p></NavLink>
     
   
-    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Blogs
-          </a>
-         
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><NavLink to ="/health">Health Blogs</NavLink></li>
-            <li> <NavLink to ="/recipe">Recipe Blogs</NavLink></li>
-            <li><NavLink to ="/etn">EnterTainment blogs</NavLink></li>
+  
+
+<div class="dropdown">
+  <span class="dropbtn"><p>Blogs</p></span>
+  <div class="dropdown-content">
+    <ul>
+    <li><NavLink to ="/health">Health</NavLink></li>
+            <li> <NavLink to ="/recipe">Recipe</NavLink></li>
+            <li><NavLink to ="/etn">Entertainment</NavLink></li>
            
-            <li><NavLink to ="/edu">Educational Blogs</NavLink></li>
-          </ul>
- 
-         
-          {/* <a className="ac " aria-current="page"><p>About Us</p></a> */}
+            <li><NavLink to ="/edu">Educational</NavLink></li>
+   
+    </ul>
+  </div>
+</div>
+      
          
        <NavLink to ="/about"><p>About Us</p></NavLink>
          
        
        
-         {/* <a className="ac"><p>Contact Us</p></a> */}
+        
          <NavLink to = "/contact"><p>Contact Us</p></NavLink>
          
          

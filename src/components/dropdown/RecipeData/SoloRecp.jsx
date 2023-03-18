@@ -22,7 +22,7 @@ const SoloRecp = () => {
   return (
 <>
 
-<div className="rcp-cont">
+<div className="rcpi-cont">
       <div className="row">
         <div className="col-10">
           <h3>{recipe.title}</h3>
@@ -30,12 +30,12 @@ const SoloRecp = () => {
      
         <div className="col-4 rec-col">
 
-        <div class="container">
-  <div class="row align-items-start">
-    <div class="col" style={{marginLeft:"1em",fontWeight:"bold"}}>
+        <div  className='cont-rec'>
+  <div className="row align-items-start">
+    <div className="col" style={{marginLeft:"1em",fontWeight:"bold"}}>
      Time: <MdAlarm/> {recipe.time}
     </div>
-    <div class="col" style={{marginLeft:"5em",fontWeight:"bold"}}>
+    <div className="col" style={{marginLeft:"5em",fontWeight:"bold"}}>
      Quantity: <BiDish/> Serves 4
     </div>
    
@@ -43,19 +43,19 @@ const SoloRecp = () => {
  
 </div>
 
-          <img src={recipe.img}  height={"360px"} width={"360px"} className="rec-img" />
-          {/* <br /> */}
-          <div class="row ">
-    <div class="col">
+          <img src={recipe.img}  height={"360px"} width={"500px"} className="rec-img" />
+         
+          <div className="row "style={{margin:"1em 0 0 5em"}}>
+    <div className="col">
    <h6>Ratings:<span><RatingStars/> </span>
     </h6>
     </div>
-    <div class="col">
+    <div className="col">
     <h6>Like Us:     <LikeButton/></h6>
     </div>
     
   </div>
-  <h4>About Recipe..</h4>
+  <h4 className='h4-rec'>About Recipe..</h4>
           <div><p>{recipe.detail}</p></div>
           <Comment/>
         </div>
@@ -64,17 +64,17 @@ const SoloRecp = () => {
 <div className='detail-head-div'>
 <h4 className='detail-head1'><GiBladeFall/></h4>
     <h4 className='detail-head'>  Directions</h4></div>
-         {/* <div  > */}
+        
           <ReactPlayer controls url={recipe.vid} className="video" style={{borderRadius:"10px"}}/>
-          {/* </div> */}
+          
           <br />
           
           <div className='step-div'>
-            <h4>Ingredients</h4>
+            <h4 className='h4-rec'>Ingredients</h4>
             <p>{recipe.ing}</p>
           </div>
           <div className='step-name' >
-            <h4>Methods</h4>
+            <h4 className='h4-rec'>Methods</h4>
             <p>{recipe.steps}</p>
           </div>
         </div>

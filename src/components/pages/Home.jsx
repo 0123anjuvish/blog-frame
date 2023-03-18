@@ -16,7 +16,7 @@ function Home() {
 
   <div className="card-group">
   <div className="card">
-    <img src="https://images.pexels.com/photos/3775593/pexels-photo-3775593.jpeg?auto=compress&cs=tinysrgb&w=600" className="card-img-top" alt="yoga"/>
+    <img src="https://images.pexels.com/photos/3775593/pexels-photo-3775593.jpeg?auto=compress&cs=tinysrgb&w=600" className="card-img-top-1" alt="yoga"/>
     
     <div className="card-body">
       <h5 className="card-title">Yogasan</h5>
@@ -28,8 +28,8 @@ function Home() {
    
   </div>
  
-  <div className="card">
-    <img src="https://www.chefkunalkapur.com/wp-content/uploads/2021/05/cheese-cake-2-scaled-e1635216358218-1300x881.jpg?v=1620792048" className="card-img-top" alt="cheeseCake"/>
+  <div className="card" >
+    <img src="https://www.chefkunalkapur.com/wp-content/uploads/2021/05/cheese-cake-2-scaled-e1635216358218-1300x881.jpg?v=1620792048" className="card-img-top-1" alt="cheeseCake"/>
    
     <div className="card-body">
       <h5 className="card-title">Cheese Cake</h5>
@@ -42,7 +42,7 @@ function Home() {
    
   </div>
   <div className="card">
-    <img src="https://wallpapercave.com/dwp1x/wp10338144.jpg" className="card-img-top" alt="web-series"/>
+    <img src="https://wallpapercave.com/dwp1x/wp10338144.jpg" className="card-img-top-1" alt="web-series"/>
    
     <div className="card-body">
       <h5 className="card-title">Money-Heist</h5>
@@ -54,7 +54,7 @@ function Home() {
    
   </div>
   <div className="card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2G57LKxiYM5XMiHPa-9ccxpfF4NGQKSrJg&usqp=CAU" className="card-img-top" alt="Web-Development"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2G57LKxiYM5XMiHPa-9ccxpfF4NGQKSrJg&usqp=CAU" className="card-img-top-1" alt="Web-Development"/>
    
     <div className="card-body">
       <h5 className="card-title">Web-Development</h5>

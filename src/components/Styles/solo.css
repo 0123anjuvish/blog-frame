@@ -1,20 +1,44 @@
 /*Solo Recipe Page */
 .rec-col{
     margin:0;
+   
+    width: 44%;
+    margin-left: 1em;
+}
+.btn btn-primary{
+  margin:5em 0 0 6em !important;
+}
+.rcpi-cont{
+  height:1590px;
+  background-color: rgb(243, 195, 106);
+}
+.cont-rec{
+margin: 2em;
 }
 .rec-img{
     margin-top:4em;
+    margin-left: 2em;
     border-radius: 20px;
+}
+.h4-rec{
+  margin-top: 1em;
+  margin-left: 5em;
+  color:rgb(63, 43, 81);
+  font-weight: bold;
+  text-transform:uppercase;
 }
 .video{
    
-    margin:4em 0 0 4em;
+    margin:6em 0 0 4em;
     width: 480px;
     height: 400px;
 
 }
 .step-div{
-    margin-left: 7em;
+    margin-left: 4em;
+}
+.step-name{
+  margin-left: 4em;
 }
 .detail-head{
     margin:1em 0 0 1em;
@@ -56,12 +80,24 @@ h6{
   /*Health*/
   .hlt-cont-1{
     background-color: rgb(81, 239, 81);
-    height:1366px;
+   
+    height: 2400px;
+  }
+  .hlt-div{
+    margin:1em 0 0 1em;
   }
   .hlt-vid{
     width: 353px !important;
-    height: 360px !important;
+    height: 470px !important;
   }
+  .hlt-vid1{
+    margin:2em 0 0 6em;
+  }
+  .hlt-img{
+    margin-top:4em;
+    margin-left: 7em;
+    border-radius: 20px;
+}
   .hlt-col1{
     background-color: greenyellow;
     width: 845px;
@@ -136,11 +172,15 @@ margin:25px;
     border-radius: 0;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
-    /* border-radius: 0; */
-    /* max-height: 50rem; */
+    
    
   }
-  
+ 
+  .et-vi{
+    width: 650px !important;
+    height: 360px !important;
+    margin:1em 0 0 5em;
+  }
   .movie-card .title {
     font-size: 2.8rem;
     color: var(--text-clr);
@@ -194,17 +234,24 @@ margin:25px;
   }
 
   /* Education */
-
+.edu-img{
+  width: 718px;
+  height: 226px;
+  margin: 2em 0 0 3em;
+}
   .edu-cont-1{
-    background-color: rgb(12, 22, 50);
-    height:1940px;
+    background-color: rgb(9,47,161);
+    height:2035px;
   }
   .edu-vid{
     width: 353px !important;
     height: 360px !important;
   }
+  .ed-vi{
+    margin:1em 0 0 5em;
+  }
   .edu-col1{
-    background-color: rgb(9,47,161);
+   
     width: 845px;
     height: 1916px;
     margin: 1em 0 0 2em;

@@ -25,6 +25,7 @@ const SoloHlt = () => {
      </div>
      <div className='edu-p'>
         {edu.what}
+        <img src={edu.img} alt="" className='edu-img'/>
      </div>
      <div className='edu-p' >
 <h5 className='h55-edu'>Top 5 Best Platform for it:</h5>
@@ -42,6 +43,10 @@ const SoloHlt = () => {
         <h5 className='h55-edu'>Importance of {edu.title}</h5>
         {edu.imp}
      </div>
+     <div className='edu-p'>
+        <h5 className='h55-edu'>Watch this video to know all about {edu.title}</h5>
+        <ReactPlayer controls url={edu.vid} className="ed-vi"/>
+     </div>
      <div className="sbs-edu">
         If you like to read our page please like and comment us, it would be benificial for us.
         <div className='edu-rt'>
@@ -57,7 +62,7 @@ const SoloHlt = () => {
 <ReactPlayer controls url="https://www.youtube.com/watch?v=MtC4NBYT7PQ" style={{width: "487px", height: "360px"}} className="edu-vid" />
 </div>
 
-<div className="card" >
+<div className="card"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
   <img src="https://images.pexels.com/photos/1755087/pexels-photo-1755087.jpeg?auto=compress&cs=tinysrgb&w=600" className="cd-img-top" alt="..."/>
   <div className="card-body-edu">
     <h5 className="card-title">Entertainment blog</h5>
@@ -66,7 +71,7 @@ const SoloHlt = () => {
   </div>
   <NavLink to="/etn"> <button type="button"className="btn btn-primary" style={{margin:"8em"}}>Click here</button></NavLink>
 </div>
-<div className="card" >
+<div className="card"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
   <img src="https://images.pexels.com/photos/6287210/pexels-photo-6287210.jpeg?auto=compress&cs=tinysrgb&w=600" className="cd-img-top" alt="..."/>
   <div className="card-body-edu">
     <h5 className="card-title">Recipe blog</h5>
@@ -75,7 +80,7 @@ const SoloHlt = () => {
   </div>
   <NavLink to="/edu"> <button type="button"className="btn btn-primary" style={{margin:"8em"}}>Click here</button></NavLink>
 </div>
-<div className="card" >
+<div className="card"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
 <img src="https://thumbs.dreamstime.com/b/health-blog-young-doctor-headphones-sitting-table-laptop-webinars-online-consultation-185046861.jpg" className="cd-img-top" alt="..."/>
   
  
