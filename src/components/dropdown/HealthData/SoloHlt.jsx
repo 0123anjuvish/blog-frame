@@ -41,6 +41,7 @@ const SoloHlt = () => {
      <div className='hlt-div'>
         <h5 className='h55'>Prevention/Precautions</h5>
         {hlth.treat}
+        <h5 className='h55'>Watch this Video to help you</h5>
         <ReactPlayer controls url ={hlth.vid} className='hlt-vid1' />
      </div>
      <div className="sbs">

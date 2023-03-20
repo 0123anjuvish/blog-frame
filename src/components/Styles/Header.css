@@ -3,6 +3,7 @@
 
 margin-left: 7em;
 padding:0.4em;
+
 /* justify-content: space-between !important; */
 width:635px;
 }
@@ -137,7 +138,10 @@ width:25px;
   transform: scale(1.05) rotate(-1deg) !;
 }
 
-
+.selct{
+  width:21%;
+  border-radius: 7px;
+}
 
  
 

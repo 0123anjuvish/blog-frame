@@ -76,16 +76,16 @@ function Footer() {
 </div>
 
 <hr/>
-     <nav class="navbar fixed-bottom navbar-light bg-light ft">
-  <div class="container-fluid">
+     <nav className="navbar fixed-bottom navbar-light bg-light ft">
+  <div className="container-fluid">
   <h6>© 2022 by Blog Frame,Inc. All rights reserved.</h6>
       <h6 style={{marginLeft:"27em" }}>MADE FOR BHARAT 💓</h6>
-      <ul class="list-unstyled d-flex">
+      <ul className="list-unstyled d-flex">
        
-         <li class="ms-3"><a href="https://www.linkedin.com/in/anju-vishwakarma-63531a23b/"><img src={ln} height="30" width="30"/></a></li>
-        <li class="ms-3"><a href="https://github.com/0123anjuvish"><img src={git} height="30" width="30"/></a></li>
-        <li class="ms-3"><a href="https://www.instagram.com/vishanju0123/"><img src={insta} height="30" width="30"/></a></li>
-        <li class="ms-3"><a href=""><img src={tw} height="30" width="30"/></a></li>
+         <li className="ms-3"><a href="https://www.linkedin.com/in/anju-vishwakarma-63531a23b/"><img src={ln} height="30" width="30"/></a></li>
+        <li className="ms-3"><a href="https://github.com/0123anjuvish"><img src={git} height="30" width="30"/></a></li>
+        <li className="ms-3"><a href="https://www.instagram.com/vishanju0123/"><img src={insta} height="30" width="30"/></a></li>
+        <li className="ms-3"><a href=""><img src={tw} height="30" width="30"/></a></li>
       </ul>
   </div>
 </nav>

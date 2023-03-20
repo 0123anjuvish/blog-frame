@@ -1,116 +1,78 @@
-
-// import list from "./dropdown/RecipeData/recdata";
-// import { Link } from "react-router-dom";
-// console.log(list);
-// const allData = [...list.map((item) => ({ type: "recipe", ...item }))];
-// console.log("alldata", allData);
-
-// function Search(props) {
-//   const [searchResults, setSearchResults] = useState([]);
-
-//   const searchQuery = props.query || "";
-//   console.log("anju", searchQuery);
-//   useEffect(() => {
-//     if (searchQuery.trim() === "") {
-//       setSearchResults([]);
-//       return;
-//     }
-
-//     setSearchResults(search(searchQuery));
-//   }, [searchQuery]);
-
-//   function search(query) {
-//     console.log("878787878", props.query);
-//     const results = [];
-//     for (const item of allData) {
-//       console.log("my item title is", item.title);
-//       if (
-//         item.title &&
-//         item.title.toLowerCase().includes(query.toLowerCase())
-//       ) {
-//         results.push(item);
-//       }
-//       console.log(searchQuery, "000000", item.title);
-//     }
-//     console.log("Search results:", results);
-//     return results;
-//   }
-
- 
-//   if (searchQuery.trim() === "") {
-//     return null;
-//   }
-//   console.log("here is my search result is:", searchResults);
-//   return (
-//     <div>
-//       {searchResults.length > 0 ? (
-//         <ul>
-//           {searchResults.map((item) => (
-//             <li key={item.id}>
-//               <Link to={`/recipe/${item.id}`}>
-//                 {item.title} ({item.img})
-//               </Link>
-//             </li>
-//           ))}
-//         </ul>
-//       ) : (
-//         <p>No results found.</p>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default Search;
 import React, { useState } from "react";
-import { Navigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import list from "./dropdown/RecipeData/recdata";
+import hList from "./dropdown/HealthData/hltdata";
+import etnList from "./dropdown/EtnData/etndata";
+import eduList from "./dropdown/EduData/edudata";
+import { BsSearch } from "react-icons/bs";
 
 const Search = () => {
+  const [data, setData] = useState([]);
+  const [page, setPage] = useState("");
+  const navigate = useNavigate();
 
-  function Products({ products }) {
-  const [searchQuery, setSearchQuery] = useState("");
-
-  const handleSearchInputChange = (event) => {
-    setSearchQuery(event.target.value);
+  const handleClick = (event) => {
+    if (event === "health") {
+      setData(hList);
+      setPage("/health");
+    }
+    if (event === "recipe") {
+      setData(list);
+      setPage("/recipe");
+    }
+    if (event === "etn") {
+      setData(etnList);
+      setPage("/etn");
+    }
+    if (event === "edu") {
+      setData(eduList);
+      setPage("/edu");
+    }
+    console.log(data, page, event);
   };
 
-  const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const handleSearch = (event) => {
+    event.preventDefault();
+    const searchTerm = event.target.elements.search.value;
+    console.log(searchTerm);
+    let obj = null;
+    if (page) {
+      for (let i = 0; i < data.length; i++) {
+        // console.log(data[i]);
+        let obj = data[i].filter(
+          (e) => e.title.toLowerCase() === searchTerm.toLowerCase()
+        );
 
-  return (
-    <div>
-      <input type="text" placeholder="Search products..." value={searchQuery} onChange={handleSearchInputChange} />
-      <ul>
-        {filteredProducts.map((product) => (
-          <li key={product.id}>{product.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}
+        console.log(data[i], obj[0]);
 
-function Categories({ categories }) {
-  const [searchQuery, setSearchQuery] = useState("");
-
-  const handleSearchInputChange = (event) => {
-    setSearchQuery(event.target.value);
+        if (obj.length > 0) {
+          navigate(`${page}/${obj[0].id}`);
+        }
+      }
+    }
   };
 
-  const filteredCategories = categories.filter((category) =>
-    category.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
   return (
-    <div>
-      <input type="text" placeholder="Search categories..." value={searchQuery} onChange={handleSearchInputChange} />
-      <ul>
-        {filteredCategories.map((category) => (
-          <li key={category.id}>{category.name}</li>
-        ))}
-      </ul>
-    </div>
+    <form className="d-flex" onSubmit={handleSearch}>
+      <select className="selct" onChange={(e) => handleClick(e.target.value)}>
+        <option value="">Open this select menu</option>
+        <option value="health">Health</option>
+        <option value="recipe">Recipe</option>
+        <option value="etn">Entertainment</option>
+        <option value="edu">Education</option>
+      </select>
+
+      <input
+        className="form-control me-2"
+        type="search"
+        placeholder="Search by blog catagories....."
+        aria-label="Search"
+        name="search"
+      />
+      <button className="btn1r">
+        <BsSearch />
+      </button>
+    </form>
   );
-}
 };
-
 export default Search;
