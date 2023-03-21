@@ -79,7 +79,7 @@ h6{
   }
   /*Health*/
   .hlt-cont-1{
-    background-color: rgb(81, 239, 81);
+    background-color: greenyellow;
    
     height: 2400px;
   }
@@ -99,7 +99,7 @@ h6{
     border-radius: 20px;
 }
   .hlt-col1{
-    background-color: greenyellow;
+   
     width: 845px;
     height: 127  3px;
     margin: 1em 0 0 2em;
@@ -213,7 +213,7 @@ margin:25px;
     background-color: rgb(255, 88, 88);
   }
   .etn-col1{
-    background-color:rgb(241 136 136);
+   
     width: 845px;
     height: 127  3px;
     margin: 1em 0 0 2em;

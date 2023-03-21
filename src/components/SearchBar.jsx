@@ -48,6 +48,7 @@ const Search = () => {
         if (obj.length > 0) {
           navigate(`${page}/${obj[0].id}`);
         }
+      
       }
     }
   };

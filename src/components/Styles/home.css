@@ -49,12 +49,34 @@ p{
     cursor: pointer;
 }
 p:hover:before,p:hover:after{
-    transform: translate(0,0);
+    transform: translate(0.4,0);
   opacity: 1;
 
 }
 p:hover{
+  
     color: #bc8f14;
+}
+.p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+text-shadow: 4px 4px 4px #aaa;
+  color:rgb(23, 20, 20);
+  cursor: pointer;
+}
+.p1:hover:before,.p1:hover:after{
+  transform: translate(1.4,0);
+opacity: 1;
+
+}
+.p1:hover{
+font-size: 24px;
+  color: #443816;
 }
 .c1{
   margin-left:1em!important;

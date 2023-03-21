@@ -21,7 +21,7 @@ function Header() {
 
       
 
-        <div>
+        <div style={{marginTop:"3em"}}>
   <span className="tag">A Multipurpose Blog-Page</span>
   <div class="wrapper two">
         <div class="neon">
