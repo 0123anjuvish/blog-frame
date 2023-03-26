@@ -9,20 +9,20 @@ function About() {
     <>
     
 
-<div class="card-header"><h3>About </h3></div>
+<div className="card-header"><h3>About </h3></div>
 
 
-<div class="c1">
-  <div class="row">
-    <div class="col">
+<div className="c1">
+  <div className="row">
+    <div className="col">
     
-    <figure class="figure">
-  <img src={mee} class="figure-img img-fluid rounded c1img" alt="..."/>
+    <figure className="figure">
+  <img src={mee} className="figure-img img-fluid rounded c1img" alt="..."/>
  
 </figure>
 
     </div>
-    <div class="col">
+    <div className="col">
     <h4 className="abth4">Meet the Face behind this Post</h4>
     <p className="line"> Committed and goal-oriented science graduate and diploma holder in cs looking to pursue a career in the Frontened developer.
        Possess excellent knowledge in HTML, CSS, Javascript, React. Ability to learn things quickly and capable of working in 
@@ -38,28 +38,28 @@ function About() {
 </div>
 <div className="c3">
 
-<div class="card-group">
-  <div class="card">
-    <img src={inf} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">What we serve</h5>
-      <p class="card-text">Here we are posting various types of posts you can read everything in one page.</p>
+<div className="card-group">
+  <div className="card">
+    <img src={inf} className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">What we serve</h5>
+      <p className="card-text">Here we are posting various types of posts you can read everything in one page.</p>
      
     </div>
   </div>
-  <div class="card">
-    <img src={inf} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Delight</h5>
-      <p class="card-text">Deliver resonant content that reflects your message, regardless of its language.</p>
+  <div className="card">
+    <img src={inf} className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">Delight</h5>
+      <p className="card-text">Deliver resonant content that reflects your message, regardless of its language.</p>
      
     </div>
   </div>
-  <div class="card">
-    <img src={inf} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Learning</h5>
-      <p class="card-text">We are trying to learning makes you feel fun and enjoy together</p>
+  <div className="card">
+    <img src={inf} className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">Learning</h5>
+      <p className="card-text">We are trying to learning makes you feel fun and enjoy together</p>
       
     </div>
   </div>

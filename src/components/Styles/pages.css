@@ -26,8 +26,11 @@ h3{
   margin-left: 11em!important;
 }
 .imgg{
-  height:20px;
-  weight:40px;
+  height: 60px;
+    width: 72px;
+    
+    margin-left: 19px;
+    border-radius: 50%;
 }
 .c1{
     background-color: rgb(226, 224, 223);
@@ -81,4 +84,11 @@ width:410px;
     width: 471px;
     margin-top: 3em;
     margin-left: -14em;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .cc{
+    width:300px;
+  }
 }

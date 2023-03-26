@@ -1,6 +1,6 @@
 
 body{
-  background-color:rgb(243, 244, 237) !important;
+  background-color:rgb(244, 244, 215) !important;
   width :auto important;
    margin: 0;
   padding: 0;
@@ -36,9 +36,6 @@ body{
   color:rgb(219, 113, 113);
   border:1px red;
 }
-
-
-
 .inpt{
   margin: 2em 3em 1em 2em;
 }
@@ -55,3 +52,5 @@ body{
   margin:0.3em;
  
 }
+
+

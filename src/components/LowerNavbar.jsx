@@ -12,8 +12,8 @@ function LowerNav() {
           <NavLink to="/">
             <p className="p1">Home</p>
           </NavLink>
-          <div class="dropdown-menuu">
-            <span class="dropbtn">
+          <div className="dropdown-menuu">
+            <span className="dropbtn">
               <p className="p1">Blogs</p>
             </span>
            
@@ -47,3 +47,6 @@ function LowerNav() {
 }
 
 export default LowerNav;
+
+
+

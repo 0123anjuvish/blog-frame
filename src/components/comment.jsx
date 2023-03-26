@@ -23,9 +23,9 @@ const Comment = () => {
       setComment("");
     }
   return (
-    <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Comment Us:</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="write your comment here....."rows="3"value={comment}
+    <div className="mb-3">
+    <label for="exampleFormControlTextarea1" className="form-label">Comment Us:</label>
+    <textarea className="form-control" id="exampleFormControlTextarea1"  placeholder="write your comment here....."rows="3"value={comment}
           onChange={handleCommentChange}></textarea>
     <button className='btn2'onClick={handleSubmit}>Submit</button>
   </div>

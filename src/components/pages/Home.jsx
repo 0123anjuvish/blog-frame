@@ -27,8 +27,8 @@ function Home() {
       <h5 className="card-title">Yogasan</h5>
       <p className="card-text">Yoga has become a global phenomenon over the last several decades. What started out thousands of years ago in the East as a meditative practice has now evolved into a modern lifestyle craze that generates billions of dollars</p>
      
-      <div class="card-footer">
-      <small class="text-muted"> <NavLink to="/health">
+      <div className="card-footer">
+      <small className="text-muted"> <NavLink to="/health">
                     Continue Reading.....
                   </NavLink></small>
     </div>
@@ -43,8 +43,8 @@ function Home() {
       <h5 className="card-title">Cheese Cake</h5>
       <p className="card-text">This creamy, soft and egg-free New York Style Cheesecake recipe is a favorite among my friends and family. When served with my simple chocolate sauce, this elegant dessert is both beautiful and delicious!",
       </p>
-      <div class="card-footer">
-      <small class="text-muted"> <NavLink to="/recipe">
+      <div className="card-footer">
+      <small className="text-muted"> <NavLink to="/recipe">
                     Continue Reading.....
                   </NavLink></small>
     </div>
@@ -59,8 +59,8 @@ function Home() {
      <h5 className="card-title">Money-Heist</h5>
      <p className="card-text">This year, the makers released the fourth season of Money Heist. It received great reviews from critics and fans all over the world.it appears like Professor Sergio, the show’s mastermind has failed this time because he is holding shackles </p>
     
-     <div class="card-footer">
-      <small class="text-muted"> <NavLink to="/etn">
+     <div className="card-footer">
+      <small className="text-muted"> <NavLink to="/etn">
                     Continue Reading.....
                   </NavLink></small>
     </div>
@@ -75,8 +75,8 @@ function Home() {
      <h5 className="card-title">Web-Development</h5>
      <p className="card-text">The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks. </p>
     
-     <div class="card-footer">
-      <small class="text-muted"> <NavLink to="/edu">
+     <div className="card-footer">
+      <small className="text-muted"> <NavLink to="/edu">
                     Continue Reading.....
                   </NavLink></small>
     </div>

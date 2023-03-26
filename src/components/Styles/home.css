@@ -64,7 +64,8 @@ p:hover{
   font-family: 'Tangerine', serif;
   font-weight: bold;
 font-size: 20px;
-text-transform: uppercase;
+text-transform: uppercase
+;
 text-shadow: 4px 4px 4px #aaa;
   color:rgb(23, 20, 20);
   cursor: pointer;

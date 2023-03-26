@@ -113,16 +113,16 @@ function Contact() {
 </div>
     </div>
    
-    <nav class="navbar fixed-bottom navbar-light bg-light ft">
-  <div class="container-fluid">
+    <nav className="navbar fixed-bottom navbar-light bg-light ft">
+  <div className="container-fluid">
   <h6>© 2022 by Blog Frame,Inc. All rights reserved.</h6>
       <h6 style={{marginLeft:"27em" }}>MADE FOR BHARAT 💓</h6>
-      <ul class="list-unstyled d-flex">
+      <ul className="list-unstyled d-flex">
        
-         <li class="ms-3"><img src={ln} height="30" width="30"/></li>
-        <li class="ms-3"><img src={git} height="30" width="30"/></li>
-        <li class="ms-3"><img src={insta} height="30" width="30"/></li>
-        <li class="ms-3"><img src={tw} height="30" width="30"/></li>
+         <li className="ms-3"><img src={ln} height="30" width="30"/></li>
+        <li className="ms-3"><img src={git} height="30" width="30"/></li>
+        <li className="ms-3"><img src={insta} height="30" width="30"/></li>
+        <li className="ms-3"><img src={tw} height="30" width="30"/></li>
       </ul>
   </div>
 </nav>
