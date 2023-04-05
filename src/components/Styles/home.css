@@ -180,8 +180,8 @@ display: block;
     .card1,.card-body1{
       height:600px !important;
     }
-    *, ::after, ::before {
+    /* *, ::after, ::before {
       box-sizing: border-box;
-  }
+  } */
   }
  

@@ -230,19 +230,19 @@ a{
   .nv1{
     background-color: #433f3f!important;
     height: 57px;
-    width: 360px;
+    width: 390px;
   }
   .img1{
     margin: -3px 0 0 -11px;
   }
   .selct {
-    margin: 0px 0 10px 13px;
+    margin: 0px 0 10px -17px;
     width: 21%;
     height: 33px;
     border-radius: 7px;
 }
 #srch{
-  margin: -57px 0 -2px 71px;
+  margin: 0px 0 -2px 71px;
     width: 64%;
     height: 33px;
 }
@@ -253,7 +253,7 @@ a{
   }
   .btn2{
     height: 40px;
-    margin: -48px 1em 1em 16em;
+    margin: -48px 1em 1em 18em;
     width: 50% !important;
     white-space: nowrap;
   }

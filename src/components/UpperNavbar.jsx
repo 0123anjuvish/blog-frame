@@ -13,7 +13,7 @@ function UpperNav() {
   return (
     <>
       <nav className="navbar nv1">
-        <div className="container-fluid">
+        <div className="bd1">
           <a className="navbar-brand ">
             <NavLink to="/">
               <img
