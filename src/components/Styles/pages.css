@@ -83,7 +83,7 @@ width:410px;
  
   background-color: #c5c0c0;
     width: 471px;
-    margin-top: 2.4em;
+    margin-top: 2.8em;
     margin-left: -14em;
 }
 
@@ -99,6 +99,9 @@ width:410px;
    
     margin-top: 3em;
   
+  }
+  .card-img-top{
+    width: 272px !important;
   }
   .home-h4{
     margin-left: 2em;
@@ -198,7 +201,9 @@ width:410px;
     margin-left: 1em!important;
    
     margin-top: 3em;
-  
+   }
+   .card-img-top{
+    width: 272px !important;
   }
   .home-h4{
     margin-left: 2em;
