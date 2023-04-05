@@ -1,6 +1,11 @@
 
+
+* {
+  box-sizing: border-box;
+}
 body{
   background-color:rgb(244, 244, 215) !important;
+  /* background-color: rgb(26, 174, 125)!important; */
   width :auto important;
    margin: 0;
   padding: 0;

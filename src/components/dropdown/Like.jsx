@@ -9,7 +9,7 @@ function LikeButton() {
   };
 
   return (
-    <div className='like'
+    <div className='like'id="like"
       onClick={handleLikeClick}
       style={{ color: liked ? 'red' : 'white' }}
     >

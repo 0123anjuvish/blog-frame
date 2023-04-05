@@ -34,11 +34,11 @@ function Contact() {
   return (
     <>
       <div className="container c1">
-        <h3>Let me know what's on your mind</h3>
-        <h4>If you like our posts,</h4>
-        <h4>Subscribe to our newsletter</h4>
+        <h3 id="cnt-h3">Let me know what's on your mind</h3>
+        <h4 id="cnt-h4">If you like our posts,</h4>
+        <h4 id="cnt1-h4">Subscribe to our newsletter</h4>
 
-        <div className="container overflow-hidden">
+        <div className="container overflow-hidden" id="cnt-cont">
           <div className="row gy-5">
             <div className="col-6">
               <div className="p-3 border bg-light">
@@ -113,7 +113,7 @@ function Contact() {
 </div>
     </div>
    
-    <nav className="navbar fixed-bottom navbar-light bg-light ft">
+    {/* <nav className="navbar fixed-bottom navbar-light bg-light ft">
   <div className="container-fluid">
   <h6>© 2022 by Blog Frame,Inc. All rights reserved.</h6>
       <h6 style={{marginLeft:"27em" }}>MADE FOR BHARAT 💓</h6>
@@ -125,7 +125,7 @@ function Contact() {
         <li className="ms-3"><img src={tw} height="30" width="30"/></li>
       </ul>
   </div>
-</nav>
+</nav> */}
     </>
     );
   }

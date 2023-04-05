@@ -9,12 +9,12 @@ function About() {
     <>
     
 
-<div className="card-header"><h3>About </h3></div>
+<div className="card-header"><h3 id="abt">About </h3></div>
 
 
 <div className="c1">
-  <div className="row">
-    <div className="col">
+  <div className="row"id="abt-rw">
+    <div className="col"id="abt-col1">
     
     <figure className="figure">
   <img src={mee} className="figure-img img-fluid rounded c1img" alt="..."/>
@@ -22,7 +22,7 @@ function About() {
 </figure>
 
     </div>
-    <div className="col">
+    <div className="col"id="abt-col2">
     <h4 className="abth4">Meet the Face behind this Post</h4>
     <p className="line"> Committed and goal-oriented science graduate and diploma holder in cs looking to pursue a career in the Frontened developer.
        Possess excellent knowledge in HTML, CSS, Javascript, React. Ability to learn things quickly and capable of working in 

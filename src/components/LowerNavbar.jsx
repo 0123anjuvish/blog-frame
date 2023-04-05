@@ -8,7 +8,7 @@ function LowerNav() {
   return (
     <>
       <nav className="navbar nv2">
-        <div className="container-fluid bd1">
+        <div className=" bd1">
           <NavLink to="/">
             <p className="p1">Home</p>
           </NavLink>

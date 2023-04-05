@@ -44,12 +44,12 @@ const SoloEtn = () => {
                 </div>
               </div>
             </section>
-            <div>
+            <div id="etn-div">
               <h5 className="h55">Star-Cast</h5>
               {etn.cast}
               <img src={etn.imgg} className="imgg-etn" />
             </div>
-            <div>
+            <div id="etn-div">
               <h5 className="h55">Story</h5>
               {etn.rev}
             </div>

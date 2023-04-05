@@ -1,6 +1,9 @@
 
 .bd1{
-
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
 margin-left: 7em;
 margin-top:-9px;
 width:680px;
@@ -218,9 +221,48 @@ a{
     cursor: pointer;
   }
   .bd1{
-   display: table-column;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-left: 0.1em;
+    margin-top: -9px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nv1{
+    background-color: #433f3f!important;
+    height: 57px;
+    width: 360px;
+  }
+  .img1{
+    margin: -3px 0 0 -11px;
+  }
+  .selct {
+    margin: 0px 0 10px 13px;
+    width: 21%;
+    height: 33px;
+    border-radius: 7px;
+}
+#srch{
+  margin: -57px 0 -2px 71px;
+    width: 64%;
+    height: 33px;
+}
+  .me-2{
+    margin-top: -1px;
+    width: 108px;
+    cursor: pointer;
+  }
+  .btn2{
+    height: 40px;
+    margin: -48px 1em 1em 16em;
+    width: 50% !important;
+    white-space: nowrap;
+  }
+  #hm-hd{
+    font-size: 20px;
+  }
+  .bd1{
+    margin-left: 0.1em;
+    margin-top: -9px;
   }
 }
 

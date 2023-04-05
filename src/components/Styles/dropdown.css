@@ -302,3 +302,127 @@ height:1400px;
     opacity: 1;
     height: 100%;
   }
+
+  @media only screen and (max-width: 768px) {
+    .hlt-head{
+      white-space: nowrap;
+      font-size: 26px;
+    }
+    .hlt-cont{
+      margin: 12px;
+    }
+    .cds-hlt{
+      max-width: 300px !important;
+      margin-left: 0em;
+    }
+    .cds-hlt img{
+      width:266px;
+    }
+    .card-title{
+      white-space: nowrap;
+    margin-top: 1em!important;
+    margin-left: 2em!important;
+    font-size: 25px!important;
+
+    }
+    .card-text{
+      
+      margin-top: 1em!important;;
+      margin-left: 7em!important;;
+      font-size: 14px!important;;
+    }
+    .rcp-cont{
+      margin: 15px;
+      height: 4700px;
+    }
+    .cds{
+      max-width: 360px;
+      margin-left: 3em;
+    }
+    .cds img{
+      width:290px;
+    }
+    .lk {
+    margin-top: 1em;
+    margin-right: 4em;
+}
+.etn-cont{
+margin:10px;
+}
+.cds-etn {
+  margin: 31px;
+}
+.etn-head {
+  display: flex;
+  justify-content: center;
+ white-space: nowrap;
+  font-size: 18px;
+}
+.cds-etn img{
+  width: 300px;
+    height: 260px;
+}
+  }
+  @media only screen and (max-width: 600px) {
+    .hlt-head{
+      white-space: nowrap;
+      font-size: 26px;
+    }
+    .hlt-cont{
+      margin: 12px;
+    }
+    .cds-hlt{
+      max-width: 300px !important;
+      margin-left: 0em;
+    }
+    .cds-hlt img{
+      width:242px;
+    }
+    .card-title{
+      white-space: nowrap;
+    margin-top: 1em!important;
+    margin-left: 1em!important;
+    font-size: 20px!important;
+
+    }
+    .card-text{
+      
+      margin-top: 1em!important;;
+      margin-left: 7em!important;;
+      font-size: 14px!important;;
+    }
+    .btn-primary{
+      margin:4em 0 0 9em !important;
+    }
+    .rcp-cont{
+      margin: 15px;
+      height: 4990px;
+    }
+    .cds{
+      max-width: 360px;
+      margin-left: 3em;
+    }
+    .cds img{
+      width:250px;
+    }
+    .lk {
+    margin-top: 1em;
+    margin-right: 4em;
+}
+.etn-cont{
+margin:10px;
+}
+.cds-etn {
+  margin: 31px;
+}
+.etn-head {
+  display: flex;
+  justify-content: center;
+ white-space: nowrap;
+  font-size: 16px;
+}
+.cds-etn img{
+  width: 270px;
+    height: 260px;
+}
+  }

@@ -7,7 +7,7 @@ const RatingStars = () => {
   const stars = [1, 2, 3, 4, 5];
 
   return (
-    <div className="star-div">
+    <div className="star-div"id="star-div">
       {stars.map((star, index) => (
         <span className="span-star" key={index} onClick={() => setRating(star)}>
           {star <= rating ? "⭐" : "☆"}

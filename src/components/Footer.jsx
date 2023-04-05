@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import  React , { useState,useEffect } from "react";
 // import yt from "../Images/yt(1).png";
 import ln from "../Images/ln.png";
 import git from "../Images/git.png";
@@ -9,6 +8,7 @@ import me2 from "../Images/me2.jpg";
 function Footer() {
 
   const[email,setEmail] = useState(" ");
+  // const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   const handleChange =()=>{
     localStorage.setItem("Email",email);
@@ -17,7 +17,21 @@ function Footer() {
       alert("Thanks for subscribing us") 
     ;}
       }
-
+      // useEffect(() => {
+      //   const handleResize = () => {
+      //     setIsSmallScreen(window.innerWidth < 768);
+      //   };
+    
+      //   window.addEventListener("resize", handleResize);
+    
+      //   // call handleResize once on component mount
+      //   handleResize();
+    
+      //   // remove event listener on component unmount
+      //   return () => {
+      //     window.removeEventListener("resize", handleResize);
+      //   };
+      // }, []);
     return (
    
     <>
@@ -28,7 +42,7 @@ function Footer() {
       <div className="col-2">
         <h5>Blog Frame</h5>
       <img src={me2} className="imgg"/>
-      <p>This is the page where you can read a blog which you wants.</p>
+      <p id="p-foot"> This is the page where you can read a blog which you wants.</p>
       </div>
 
       <div className="col-2">
@@ -56,7 +70,7 @@ function Footer() {
       <div className="col-4 offset-1">
         <form>
           <h5>Please leave a Message to us</h5>
-          <h6>Monthly digest of whats new and exciting from us.</h6>
+          <h6 id="h6-foot">Monthly digest of whats new and exciting from us.</h6>
           <div className="d-flex w-100 gap-2">
             <label for="newsletter1" className="visually-hidden">Write Here</label>
             <input id="newsletter1" type="text" className="form-control" placeholder="Give your Suggestion"  value={email}
@@ -64,7 +78,7 @@ function Footer() {
 
 
 
-            <button className="btn2" type="button" onClick={handleChange}>Subscribe</button>
+            <button className="btn2" id="bt" type="button" onClick={handleChange}>Subscribe</button>
 
             
           </div>
@@ -76,10 +90,13 @@ function Footer() {
 </div>
 
 <hr/>
-     <nav className="navbar fixed-bottom navbar-light bg-light ft">
-  <div className="container-fluid">
-  <h6>© 2022 by Blog Frame,Inc. All rights reserved.</h6>
-      <h6 style={{marginLeft:"27em" }}>MADE FOR BHARAT 💓</h6>
+<nav className="navbar fixed-bottom navbar-light bg-light ft">
+{/* <nav
+        className={`navbar ${isSmallScreen ? "" : "fixed-bottom"} navbar-light bg-light ft`}
+      > */}
+  <div className="container-fluid" id="ft-cont">
+  <h6>© 2022 by Blog Frame. All rights reserved.</h6>
+      <h6 style={{marginLeft:"27em" }} id="foot-h6">MADE FOR BHARAT 💓</h6>
       <ul className="list-unstyled d-flex">
        
          <li className="ms-3"><a href="https://www.linkedin.com/in/anju-vishwakarma-63531a23b/"><img src={ln} height="30" width="30"/></a></li>

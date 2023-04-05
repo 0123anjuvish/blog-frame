@@ -27,7 +27,7 @@ const Comment = () => {
     <label for="exampleFormControlTextarea1" className="form-label">Comment Us:</label>
     <textarea className="form-control" id="exampleFormControlTextarea1"  placeholder="write your comment here....."rows="3"value={comment}
           onChange={handleCommentChange}></textarea>
-    <button className='btn2'onClick={handleSubmit}>Submit</button>
+    <button className='btn2' id='btn2' onClick={handleSubmit}>Submit</button>
   </div>
   )
 }

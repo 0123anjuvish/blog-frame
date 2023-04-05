@@ -25,7 +25,7 @@ function Header() {
   <span className="tag">A Multipurpose Blog-Page</span>
   <div className="wrapper two">
         <div className="neon">
-            <h3>Welcome to our Page</h3>
+            <h3 id="hm-hd">Welcome to our Page</h3>
         </div>
     </div>
  

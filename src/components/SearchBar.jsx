@@ -54,7 +54,7 @@ const Search = () => {
   };
 
   return (
-    <form className="d-flex" onSubmit={handleSearch}>
+    <form className="d-flex" onSubmit={handleSearch} id="srch">
       <select className="selct" onChange={(e) => handleClick(e.target.value)}>
         <option value="">Open this select menu</option>
         <option value="health">Health</option>

@@ -62,34 +62,34 @@ const SoloHlt = () => {
 <ReactPlayer controls url="https://www.youtube.com/watch?v=MtC4NBYT7PQ" style={{width: "487px", height: "360px"}} className="edu-vid" />
 </div>
 
-<div className="card"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
+<div className="card" id="card1E"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
   <img src="https://images.pexels.com/photos/1755087/pexels-photo-1755087.jpeg?auto=compress&cs=tinysrgb&w=600" className="cd-img-top" alt="..."/>
-  <div className="card-body-edu">
-    <h5 className="card-title">Entertainment blog</h5>
-    <p className="card-text">Want to read my popular blog pages you have to visit this page</p>
+  <div className="card-body-edu" id="card-body-edu-1E">
+    <h5 className="card-title" id="c-ttl">Entertainment blog</h5>
+    <p className="card-text" id='c-txt'>Want to read my popular blog pages you have to visit this page</p>
    
   </div>
-  <NavLink to="/etn"> <button type="button"className="btn btn-primary" style={{margin:"8em"}}>Click here</button></NavLink>
+  <NavLink to="/etn"> <button type="button"className="btn btn-primary" id='ed-btn' style={{margin:"8em"}}>Click here</button></NavLink>
 </div>
-<div className="card"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
+<div className="card"id="card1E"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
   <img src="https://images.pexels.com/photos/6287210/pexels-photo-6287210.jpeg?auto=compress&cs=tinysrgb&w=600" className="cd-img-top" alt="..."/>
-  <div className="card-body-edu">
-    <h5 className="card-title">Recipe blog</h5>
-    <p className="card-text">Want to read my popular blog pages you have to visit this page</p>
+  <div className="card-body-edu" id="card-body-edu-1E">
+    <h5 className="card-title" id="c-ttl">Recipe blog</h5>
+    <p className="card-text" id='c-txt'>Want to read my popular blog pages you have to visit this page</p>
   
   </div>
-  <NavLink to="/edu"> <button type="button"className="btn btn-primary" style={{margin:"8em"}}>Click here</button></NavLink>
+  <NavLink to="/edu"> <button type="button"className="btn btn-primary"id='ed-btn' style={{margin:"8em"}}>Click here</button></NavLink>
 </div>
-<div className="card"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
+<div className="card"id="card1E"style={{ width: "487px", height: "450px", marginTop: "2em" }}>
 <img src="https://thumbs.dreamstime.com/b/health-blog-young-doctor-headphones-sitting-table-laptop-webinars-online-consultation-185046861.jpg" className="cd-img-top" alt="..."/>
   
  
-  <div className="card-body-edu">
-    <h5 className="card-title">Health blog</h5>
-    <p className="card-text">Want to read my popular blog pages you have to visit this page</p>
+<div className="card-body-edu" id="card-body-edu-1E">
+    <h5 className="card-title"id="c-ttl">Health blog</h5>
+    <p className="card-text" id='c-txt'>Want to read my popular blog pages you have to visit this page</p>
    
   </div>
-  <NavLink to="/edu"> <button type="button"className="btn btn-primary" style={{margin:"8em"}}>Click here</button></NavLink>
+  <NavLink to="/edu"> <button type="button"className="btn btn-primary" id='ed-btn'style={{margin:"8em"}}>Click here</button></NavLink>
 </div>
     </div>
    
