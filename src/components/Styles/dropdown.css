@@ -1,6 +1,6 @@
 /*Recipe blog page */
 .rcp-cont{
-background-color: rgb(243, 195, 106);
+/* background-color: rgb(243, 195, 106); */
 height:1400px;
 }
   .cds {
@@ -105,9 +105,9 @@ height:1400px;
   }
   /*Health Page     */
 
-   .hlt-cont{
+   /* .hlt-cont{
     background-color: rgb(83, 238, 83);
-  }
+  } */
   .hlt-head{
     display: flex;
    justify-content: center;
@@ -170,9 +170,9 @@ height:1400px;
     height: 100%;
   }
   /* Entertainment page */
-  .etn-cont{
+  /* .etn-cont{
     background-color: #ff4444;
-  }
+  } */
   .etn-head{
     display: flex;
    justify-content: center;
@@ -237,16 +237,16 @@ height:1400px;
 
   /* Education */
 
-    .edu-cont{
+    /* .edu-cont{
     background-color: rgb(6, 17, 50);
-  }
+  } */
   .edu-head{
     display: flex;
    justify-content: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 43px;
-    color:whitesmoke
+    color:rgb(8, 8, 8)
   }
   .row-edu{
     margin-left: 2em ;

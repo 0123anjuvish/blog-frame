@@ -9,7 +9,7 @@ function About() {
     <>
     
 
-<div className="card-header"><h3 id="abt">About </h3></div>
+<div className="card-header"><span id="abt">About </span></div>
 
 
 <div className="c1">
