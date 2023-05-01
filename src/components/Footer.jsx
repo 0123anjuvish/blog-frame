@@ -17,21 +17,7 @@ function Footer() {
       alert("Thanks for subscribing us") 
     ;}
       }
-      // useEffect(() => {
-      //   const handleResize = () => {
-      //     setIsSmallScreen(window.innerWidth < 768);
-      //   };
     
-      //   window.addEventListener("resize", handleResize);
-    
-      //   // call handleResize once on component mount
-      //   handleResize();
-    
-      //   // remove event listener on component unmount
-      //   return () => {
-      //     window.removeEventListener("resize", handleResize);
-      //   };
-      // }, []);
     return (
    
     <>
@@ -96,7 +82,7 @@ function Footer() {
       > */}
   <div className="container-fluid" id="ft-cont">
   <h6>© 2022 by Blog Frame. All rights reserved.</h6>
-      <h6 style={{marginLeft:"27em" }} id="foot-h6">MADE By Anju Vishwakarma 💓</h6>
+      <h6 style={{marginLeft:"27em" }} id="foot-h6">Created By Anju Vishwakarma 💓</h6>
       <ul className="list-unstyled d-flex">
        
          <li className="ms-3"><a href="https://www.linkedin.com/in/anju-vishwakarma-63531a23b/"><img src={ln} height="30" width="30"/></a></li>
